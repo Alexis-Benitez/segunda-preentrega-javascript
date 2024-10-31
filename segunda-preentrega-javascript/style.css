@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    width: 80px;
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#historial {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.historial-item {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
